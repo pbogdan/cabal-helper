@@ -12,3 +12,7 @@ if [ -d cabal-plan/ ]; then
 fi
 
 cd "$source_dir"
+
+git init
+git add --all
+git commit -m . --author 'CI <ci@example.org>'
